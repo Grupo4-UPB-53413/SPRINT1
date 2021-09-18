@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body   {
+    padding: 0;
+    margin: 0;
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    background-color: rgb(139, 210, 231);
+    word-wrap: break-word;
+}
+#columna_izquierda{
+    width: 20%;
+    height: 80%;
+    float:left;
+}
+#landing_navbar {    
+    background-color:rgb(34, 112, 185);
+    height:100%;
+    width:20%;
+    position: fixed;
+    min-height: 100px;
+    
+}
+#landing_navbar ul li{
+    color:white;
+}
+#navbar_logo{
+    height: 100px;
+    width: 100px;  
+    display:block;
+    margin:0 auto;
+    text-align: center; 
+    padding: 30px; 
+}
+
+#landing_navbar ul{
+    padding-bottom: 10rem;
+    padding-top: 5rem;
+    list-style:none;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    color:#940b0b;
+    text-align: center;
+    padding: 20px;
+}
+
+#landing_navbar ul li{
+    padding:20px;
+    color:white;
+}
+a:link{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+a:visited {
+    color: white;
+  }
+#btn_Regis{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    /*font-size: 20px;*/
+    padding-top: 150px;
+}
+#btn_enviar_registro,#btn_irRegistro{
+    border: rgb(167, 13, 13); 
+    font-size: 8pt;
+    color: rgb(247, 242, 242);
+    background-color: #940b0b;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#columna_derecha{
+    
+    width: 80%;
+    height: 100%;
+    background-color: rgb(139, 210, 231);
+    float:right;
+    font-family: 'Merriweather', serif;
+}
+
+#formulario{
+   width: 380px; 
+   height: 500px;
+   margin: 10px;
+   background: rgb(34, 112, 185);
+   border: solid 1px;
+   border-radius: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+#formulario ul li{
+  text-align: lef;
+  list-style:none;
+  border-radius: 10px;
+  padding:20px;
+  color:white;
+}
+
+#columna_derecha h1{
+   text-align: center;
+   color:black;
+}
+#formulario h2{
+    text-align: center;
+    color:white;
+}
+
+.controlt{
+    width: 70%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background: #c4c2c2;
+    /*border-radius: 20px;*/
+    height: 30px; 
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#contenedor{
+    width:1000px;
+    height:1000px;    
+    background-color: rgb(139, 210, 231);  
+    font-family: 'Merriweather', serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+#encabezado{
+    width:1000px;
+    height:30%;    
+    background-color: rgb(139, 210, 231);    
+    font-family: 'Merriweather', serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parrafo_izquierdo{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(139, 210, 231);
+    float:left;
+    font-family: 'Merriweather', serif;    
+    text-justify: auto;
+}
+
+#parrafo_derecho{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(139, 210, 231);
+    float:right;
+    font-family: 'Merriweather', serif;    
+    text-justify: auto;
+}
+#logo3,#logo2{
+    padding-left: 100px;
+}
+/*
+#parrafo_izquierdo p{
+    text-justify: auto;
+}
+#parrafo_derecho p{
+    text-justify: auto;
+}
+#navbar_logo2{
+    padding-left: 25%;
+}
+#navbar_logo3{
+    padding-left: 25%;
+}*/

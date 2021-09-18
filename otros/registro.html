@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+  <div id="columna_izquierda">
+    <nav id="landing_navbar">
+          <img id="navbar_logo" src="imgs/logoneura.png">
+          <ul>          
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>  
+            <li><a href="#">Mapa</a></li>       
+          </ul>
+          
+    </nav>
+</div>
+<div id="columna_derecha">
+  <h1>Formulario de Inscripcion</h1>
+  
+  <div id="formulario">
+    <h2>Registro</h2>
+    <form name="form_registro_usuario" action="index.html" method="GET">        
+        <ul>
+          <li>
+            <label for="usuario">Usuario</label><br>
+            <input class="controlt" type="text" name="in_usuario" id="in_usuario" value="" 
+            placeholder="Ingrese el nombre" size="30" maxlength="10" onInput="setCustomValidity('')" ><!--disabled se usa para bloquer el cuadro de texto -->
+          </li>
+          <li>
+            <label for="contrasena">Contrasena</label><br>
+            <input class="controlt" type="password" name="in_contrasena" id="in_contrasena" value="" 
+            placeholder="Ingrese contrasena" size="20" maxlength="10" onInput="setCustomValidity('')"><!--disabled se usa para bloquer el cuadro de texto -->
+          </li>
+          <li>
+              <label for="Correo">Correo</label><br>
+              <input class="controlt" type="email" name="correo_text" id="correo_text" value="" 
+              placeholder="Ingrese el correo" size="20" maxlength="10" onInput="setCustomValidity('')"><!--disabled se usa para bloquer el cuadro de texto -->
+          </li>          
+          <li>
+              <input type="submit" id="btn_enviar_registro" name="enviar" onclick="subtotal()">
+          </li>
+      </ul>
+    </form>  
+  </div>
+</div>  
+</body>
+</html>
