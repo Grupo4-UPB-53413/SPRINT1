@@ -18,6 +18,14 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+#lista{
+    padding-top: 30px;
+    text-align: center;
+}
+#lista li{
+    border-bottom: 2px white solid;
+    padding: 80px 10px;
+}
 #link_registro{
     padding-top: 30px;
     margin-top: 15px;
@@ -106,4 +114,5 @@ body{
     background-color: black;
     color:white;
 }
+
 
